@@ -17,7 +17,7 @@ pipeline {
         stage('Test Stage') {
             environment {CLASS_NAME='DEVOPS'}
             steps {
-                sh 'java -vesion'
+                sh 'java -version'
                 sh 'echo $HOSTNAME'
                 sh 'echo $CLASS_NAME'
             }
